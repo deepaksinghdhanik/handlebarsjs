@@ -24,11 +24,14 @@
     
 ## for compliling {{{ html }}} tag use triple curly brackets.
 
-## custome helper
+## custom helper **Handlebars.registerHelper method**
     <h2>By {{fullName author}}</h2>
     Handlebars.registerHelper('fullName', function(person) {
       return person.firstName + " " + person.lastName;
     });
+
+## Template comments with {{!-- --}} or {{! }}.
+
 
 
 
